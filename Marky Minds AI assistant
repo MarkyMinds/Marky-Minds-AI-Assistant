@@ -140,6 +140,7 @@
             "email marketing": "We design and execute email campaigns to nurture leads, engage customers, and drive sales. This includes newsletter creation, automation setup, and performance analysis.",
             "website design": "Our website design and development services create responsive, user-friendly, and SEO-optimized websites tailored to your brand and business objectives.",
             "contact": "You can contact us via our website form, email us at info@youragency.com, or call us at +123-456-7890 during business hours.",
+            "hi": "hi, let me know how can I help you.",
             "default": "I'm sorry, I don't have enough information to answer that. Could you please rephrase your question or ask about our pricing, services, or requirements?"
         };
 
