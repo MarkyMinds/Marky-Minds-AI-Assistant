@@ -109,7 +109,7 @@
 <body>
     <div class="chat-container">
         <div class="chat-header">
-            Digital Marketing Agency AI Assistant
+            Marky Minds AI Assistant
         </div>
         <div class="chat-messages" id="chatMessages">
             <div class="ai-message message">Hello! I'm your AI assistant. I can help answer questions about our digital marketing agency's pricing, services, and requirements. What would you like to know?</div>
