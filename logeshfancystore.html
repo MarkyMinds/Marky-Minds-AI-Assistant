@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logesh Fancy Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        /* Custom CSS for the banner background and overlay */
+        .banner-background {
+            background-image: url('https://placehold.co/1920x600/FFD1D1/B91C1C?text=Welcome+to+Logesh+Fancy+Store');
+            background-size: cover;
+            background-position: center;
+        }
+        .banner-overlay {
+            background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay for text readability */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Navigation Menu -->
+    <nav class="sticky top-0 z-50 bg-white shadow-md rounded-b-xl">
+        <div class="container mx-auto px-4 py-3 flex justify-center space-x-6 sm:space-x-12">
+            <a href="#home" class="text-red-600 hover:text-red-800 font-semibold transition duration-200">Home</a>
+            <a href="#about" class="text-red-600 hover:text-red-800 font-semibold transition duration-200">About Us</a>
+            <a href="#services" class="text-red-600 hover:text-red-800 font-semibold transition duration-200">Services</a>
+            <a href="#contact" class="text-red-600 hover:text-red-800 font-semibold transition duration-200">Contact</a>
+            <a href="https://www.instagram.com/logesh_fancy_and_xerox/" target="_blank" rel="noopener noreferrer" class="text-red-600 hover:text-red-800 font-semibold transition duration-200">Instagram</a>
+        </div>
+    </nav>
+
+    <!-- Header Section (Banner with background image) -->
+    <header id="home" class="banner-background text-white rounded-b-xl shadow-lg">
+        <div class="banner-overlay flex items-center justify-center py-20 md:py-32">
+            <div class="container mx-auto text-center">
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2 drop-shadow-lg">Logesh Xerox & Fancy Store</h1>
+                <p class="text-lg sm:text-xl lg:text-2xl font-light drop-shadow-lg">No:4, Selliamman Kovil Street, Venkatamangalam Main Road, Ponmar, Chennai - 600 127</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container mx-auto p-4 md:p-8">
+
+        <!-- About Us Section (with id for navigation) -->
+        <section id="about" class="bg-white p-6 md:p-8 rounded-xl shadow-md mb-8 flex flex-col md:flex-row items-center gap-6">
+            <div class="md:w-1/2">
+                <h2 class="text-2xl sm:text-3xl font-semibold text-red-700 mb-4 border-b-2 border-red-200 pb-2">About Us</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Welcome to **Logesh Xerox & Fancy Store**! We are your one-stop destination for all your stationery, fancy items, and professional document services. We are dedicated to providing high-quality products and excellent service to the community in Ponmar.
+                </p>
+            </div>
+            <div class="md:w-1/2">
+                <!-- Placeholder for a fancy store image -->
+                <img src="https://placehold.co/600x400/FFD1D1/B91C1C?text=Fancy+Store+Items" alt="Fancy Store Items" class="rounded-xl shadow-lg w-full h-auto">
+            </div>
+        </section>
+
+        <!-- Fancy Items Section -->
+        <section class="bg-white p-6 md:p-8 rounded-xl shadow-md mb-8 flex flex-col md:flex-row items-center gap-6">
+            <div class="md:w-1/2 order-last md:order-first">
+                <h2 class="text-2xl sm:text-3xl font-semibold text-red-700 mb-4 border-b-2 border-red-200 pb-2">Fancy Items & Gifts</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Discover our unique collection of fancy items and gifts perfect for any occasion. From greeting cards and gift wraps to small toys and decorative pieces, we have something for everyone.
+                </p>
+            </div>
+            <div class="md:w-1/2">
+                <!-- Placeholder for a gift shop image -->
+                <img src="https://placehold.co/600x400/FFD1D1/B91C1C?text=Gifts+%26+Decor" alt="Gifts and Decor" class="rounded-xl shadow-lg w-full h-auto">
+            </div>
+        </section>
+
+        <!-- Services Section (with id for navigation) -->
+        <section id="services" class="bg-white p-6 md:p-8 rounded-xl shadow-md mb-8 flex flex-col md:flex-row items-center gap-6">
+            <div class="md:w-1/2">
+                <h2 class="text-2xl sm:text-3xl font-semibold text-red-700 mb-4 border-b-2 border-red-200 pb-2">Our Services</h2>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Xerox & Photocopying Services</li>
+                    <li>Color and Black & White Printing</li>
+                    <li>Lamination & Binding</li>
+                    <li>A wide variety of Stationery Supplies</li>
+                    <li>Unique Fancy Items & Gifts</li>
+                    <li>General Office Supplies</li>
+                </ul>
+            </div>
+            <div class="md:w-1/2">
+                <!-- Placeholder for a xerox machine graphic -->
+                <img src="https://placehold.co/600x400/FFD1D1/B91C1C?text=Xerox+%26+Printing" alt="Xerox and Printing Services" class="rounded-xl shadow-lg w-full h-auto">
+            </div>
+        </section>
+        
+        <!-- Stationery Section -->
+        <section class="bg-white p-6 md:p-8 rounded-xl shadow-md mb-8 flex flex-col md:flex-row items-center gap-6">
+            <div class="md:w-1/2 order-last md:order-first">
+                <h2 class="text-2xl sm:text-3xl font-semibold text-red-700 mb-4 border-b-2 border-red-200 pb-2">Stationery Supplies</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Find all your school and office needs right here! We stock a comprehensive range of stationery, including pens, pencils, notebooks, files, and more, all at competitive prices.
+                </p>
+            </div>
+            <div class="md:w-1/2">
+                <!-- Placeholder for stationery image -->
+                <img src="https://placehold.co/600x400/FFD1D1/B91C1C?text=Stationery+Items" alt="Stationery Items" class="rounded-xl shadow-lg w-full h-auto">
+            </div>
+        </section>
+
+        <!-- Google Maps Section -->
+        <section class="bg-white p-6 md:p-8 rounded-xl shadow-md mb-8">
+            <h2 class="text-2xl sm:text-3xl font-semibold text-red-700 mb-4 border-b-2 border-red-200 pb-2">Our Location</h2>
+            <!-- Google Maps Embed -->
+            <div class="relative w-full overflow-hidden rounded-xl" style="padding-bottom: 56.25%;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.3789973215684!2d80.17028127453303!3d12.873273816781226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f694e803a67%3A0x6a2c26f04c6f3d1b!2sLogesh%20Xerox%20%26%20Fancy%20Store!5e0!3m2!1sen!2sin!4v1699708688439!5m2!1sen!2sin" 
+                        class="absolute top-0 left-0 w-full h-full border-0" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Google Maps Location of Logesh Xerox & Fancy Store">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Contact Form Section (with id for navigation) -->
+        <section id="contact" class="bg-white p-6 md:p-8 rounded-xl shadow-md">
+            <h2 class="text-2xl sm:text-3xl font-semibold text-red-700 mb-4 border-b-2 border-red-200 pb-2">Contact Us</h2>
+            <p class="text-gray-700 mb-6">
+                Fill out the form below to get in touch. We'll respond as soon as we can!
+            </p>
+
+            <!-- Formspree is used to handle email submissions without a backend server. -->
+            <!-- You MUST replace the action URL with your own Formspree endpoint. -->
+            <form action="https://formspree.io/f/{{YOUR_FORMSPREE_FORM_ID}}" method="POST" class="space-y-4">
+                
+                <!-- Name Field (Required) -->
+                <div>
+                    <label for="name" class="block text-gray-700 font-medium mb-1">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required 
+                           class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 transition duration-200">
+                </div>
+
+                <!-- Phone Number Field (Required) -->
+                <div>
+                    <label for="phone" class="block text-gray-700 font-medium mb-1">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required
+                           class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 transition duration-200">
+                </div>
+
+                <!-- Mail ID Field (Optional) -->
+                <div>
+                    <label for="email" class="block text-gray-700 font-medium mb-1">Mail ID</label>
+                    <input type="email" id="email" name="_replyto" placeholder="Your Email Address"
+                           class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 transition duration-200">
+                </div>
+
+                <!-- What You Are Looking For Field (Required) -->
+                <div>
+                    <label for="looking_for" class="block text-gray-700 font-medium mb-1">What you are looking for</label>
+                    <textarea id="looking_for" name="what_you_are_looking_for" rows="4" placeholder="e.g., 'A4 size paper, 10 notebooks, and binding services.'" required
+                              class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-500 transition duration-200 resize-none"></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div>
+                    <button type="submit" 
+                            class="w-full bg-red-600 text-white font-semibold py-3 px-4 rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition duration-200">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white text-center py-4 px-4 mt-8 rounded-t-xl shadow-inner">
+        <p class="text-sm">&copy; 2025 Logesh Xerox & Fancy Store. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
